@@ -13,6 +13,7 @@ h1 {
 .wrapper {
     background-color: #7FC7FF;
     min-height: 100vh;
+    height: 100%;
 }
 .title {
     color: darkred;
