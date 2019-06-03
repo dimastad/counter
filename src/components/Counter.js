@@ -4,7 +4,7 @@ import style from '../styles/Counter.css';
 
 export default function Counter() {
 
-    const [count, setCount] = useState(0);
+    const [count, setCount] = useState(localStorage.getItem('value') !== null ? localStorage.getItem('value') : 0);
 
     return (
         <div className={style.block}>
@@ -20,6 +20,9 @@ export default function Counter() {
             </button>
             <button className={style.button} onClick={() => setCount(count * 0)}>
                 Обнулить
+            </button>
+            <button className={style.button} onClick={() => localStorage.setItem('value', count)}>
+                сохранить
             </button>
         </div>
     );
