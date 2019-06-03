@@ -1,5 +1,7 @@
 Counter - тестовое задание
 
-запустить локальный сервер - npm start
+https://dimastad.github.io/counter/
 
-production - npm run build
+запустить локальный сервер - npm start (Localhost:8080)
+
+production - npm run build 
