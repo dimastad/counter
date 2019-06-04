@@ -22,7 +22,7 @@ export default function Counter() {
                 Обнулить
             </button>
             <button className={style.button} onClick={() => localStorage.setItem('value', count)}>
-                сохранить
+                Cохранить
             </button>
         </div>
     );
