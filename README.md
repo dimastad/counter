@@ -12,6 +12,14 @@ https://dimastad.github.io/counter/
 
 "сохранить" - сохраняет значение в localStorage.
 
-запустить локальный сервер - npm start (Localhost:8080)
+<!--  -->
 
-production - npm run build 
+работа ведется в src
+
+1.запустить локальный сервер - npm start (Localhost:8080) 
+
+2.production - npm run build 
+
+3.git push origin master
+
+4.deploy - npm run deploy
