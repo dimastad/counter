@@ -4,7 +4,7 @@ import style from '../styles/Counter.css';
 
 export default function Counter() {
 
-    const [count, setCount] = useState(localStorage.getItem('value') !== null ? localStorage.getItem('value') : 0);
+    const [count, setCount] = useState(localStorage.getItem('value') !== null ? Number(localStorage.getItem('value')) : 0);
 
     return (
         <div className={style.block}>

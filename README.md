@@ -16,6 +16,8 @@ https://dimastad.github.io/counter/
 
 работа ведется в src
 
+0.npm i
+
 1.запустить локальный сервер - npm start (Localhost:8080) 
 
 2.production - npm run build 
